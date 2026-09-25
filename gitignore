@@ -1,0 +1,27 @@
+# Dependencias
+node_modules/
+
+# Build de Astro
+dist/
+.astro/
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Claude Code (config y sesión local, no debe subirse al repo)
+.claude/
+.claude.json
+.mcp.json
+CLAUDE.local.md
+
+# Sistema / editor
+.DS_Store
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+
+# Otros
+.cache/
